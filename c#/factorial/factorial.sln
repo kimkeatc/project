@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factorial", "factorial\factorial.csproj", "{0A89B7D7-8B21-4A32-B21D-8F9D0C8C610C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factorial.NUnitTest", "factorial.NUnitTest\factorial.NUnitTest.csproj", "{4CBE63D9-71DD-4545-961E-A8F24A4AF085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A89B7D7-8B21-4A32-B21D-8F9D0C8C610C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A89B7D7-8B21-4A32-B21D-8F9D0C8C610C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A89B7D7-8B21-4A32-B21D-8F9D0C8C610C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A89B7D7-8B21-4A32-B21D-8F9D0C8C610C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBE63D9-71DD-4545-961E-A8F24A4AF085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBE63D9-71DD-4545-961E-A8F24A4AF085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBE63D9-71DD-4545-961E-A8F24A4AF085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBE63D9-71DD-4545-961E-A8F24A4AF085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF62184B-BD6D-44FF-95BD-D018F8E0C124}
+	EndGlobalSection
+EndGlobal

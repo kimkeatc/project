@@ -1,0 +1,30 @@
+package require tcltest
+
+source factorial.tcl
+
+tcltest::test test_zero {} -body {
+    set number 0
+    factorial $number
+} -result 1
+
+tcltest::test test_one {} -body {
+    set number 1
+    factorial $number
+} -result 1
+
+tcltest::test test_two {} -body {
+    set number 2
+    factorial $number
+} -result 2
+
+tcltest::test test_three {} -body {
+    set number 3
+    factorial $number
+} -result 6
+
+tcltest::test test_five {} -body {
+    set number 5
+    factorial $number
+} -result 120
+
+tcltest::cleanupTests

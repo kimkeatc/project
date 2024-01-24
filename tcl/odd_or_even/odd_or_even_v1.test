@@ -1,0 +1,25 @@
+package require tcltest
+
+source odd_or_even_v1.tcl
+
+tcltest::test test_zero_is_even {} -body {
+    set number 0
+    is_even $number
+} -result true
+
+tcltest::test test_zero_is_odd {} -body {
+    set number 0
+    is_odd $number
+} -result false
+
+tcltest::test test_one_is_even {} -body {
+    set number 1
+    is_even $number
+} -result false
+
+tcltest::test test_one_is_odd {} -body {
+    set number 1
+    is_odd $number
+} -result true
+
+tcltest::cleanupTests

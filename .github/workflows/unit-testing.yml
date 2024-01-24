@@ -22,8 +22,10 @@ jobs:
       - name: Test projects
         run: |
           python ./python/factorial/test_factorial.py
-          python ./python/ini_file_parser/test_ini_file_parser.py
+          python ./python/fibonacci/test_fibonacci.py
           python ./python/odd_or_even/test_odd_or_even.py
+          python ./python/prime_number/test_prime_number.py
+          python ./python/ini_file_parser/test_ini_file_parser.py
           python ./python/string_generator/test_string_generator.py
           
           # Projects with libraries dependencies
